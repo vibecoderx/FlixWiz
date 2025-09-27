@@ -2,8 +2,6 @@
 //  ScreenSageUITestsLaunchTests.swift
 //  ScreenSageUITests
 //
-//  Created by Ankur Saxena on 8/19/25.
-//
 
 import XCTest
 

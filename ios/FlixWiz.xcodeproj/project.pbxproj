@@ -28,39 +28,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9390CB9F2E556B4600CBFD35 /* ScreenSage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CB9F2E556B4600CBFD35 /* FlixWiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixWiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBAC2E556B4700CBFD35 /* FlixWizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixWizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBB62E556B4700CBFD35 /* FlixWizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixWizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		93F5CB432E67E18200DC437D /* Exceptions for "ScreenSage" folder in "ScreenSage" target */ = {
+		93F5CB432E67E18200DC437D /* Exceptions for "FlixWiz" folder in "FlixWiz" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+			target = 9390CB9E2E556B4600CBFD35 /* FlixWiz */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9390CBA12E556B4600CBFD35 /* ScreenSage */ = {
+		9390CBA12E556B4600CBFD35 /* FlixWiz */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				93F5CB432E67E18200DC437D /* Exceptions for "ScreenSage" folder in "ScreenSage" target */,
+				93F5CB432E67E18200DC437D /* Exceptions for "FlixWiz" folder in "FlixWiz" target */,
 			);
-			path = ScreenSage;
+			path = FlixWiz;
 			sourceTree = "<group>";
 		};
-		9390CBAF2E556B4700CBFD35 /* ScreenSageTests */ = {
+		9390CBAF2E556B4700CBFD35 /* FlixWizTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScreenSageTests;
+			path = FlixWizTests;
 			sourceTree = "<group>";
 		};
-		9390CBB92E556B4700CBFD35 /* ScreenSageUITests */ = {
+		9390CBB92E556B4700CBFD35 /* FlixWizUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScreenSageUITests;
+			path = FlixWizUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -94,9 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */,
-				9390CBA12E556B4600CBFD35 /* ScreenSage */,
-				9390CBAF2E556B4700CBFD35 /* ScreenSageTests */,
-				9390CBB92E556B4700CBFD35 /* ScreenSageUITests */,
+				9390CBA12E556B4600CBFD35 /* FlixWiz */,
+				9390CBAF2E556B4700CBFD35 /* FlixWizTests */,
+				9390CBB92E556B4700CBFD35 /* FlixWizUITests */,
 				9390CBA02E556B4600CBFD35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,9 +104,9 @@
 		9390CBA02E556B4600CBFD35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9390CB9F2E556B4600CBFD35 /* ScreenSage.app */,
-				9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */,
-				9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */,
+				9390CB9F2E556B4600CBFD35 /* FlixWiz.app */,
+				9390CBAC2E556B4700CBFD35 /* FlixWizTests.xctest */,
+				9390CBB62E556B4700CBFD35 /* FlixWizUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9390CB9E2E556B4600CBFD35 /* ScreenSage */ = {
+		9390CB9E2E556B4600CBFD35 /* FlixWiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSage" */;
+			buildConfigurationList = 9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWiz" */;
 			buildPhases = (
 				9390CB9B2E556B4600CBFD35 /* Sources */,
 				9390CB9C2E556B4600CBFD35 /* Frameworks */,
@@ -128,18 +128,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9390CBA12E556B4600CBFD35 /* ScreenSage */,
+				9390CBA12E556B4600CBFD35 /* FlixWiz */,
 			);
-			name = ScreenSage;
+			name = FlixWiz;
 			packageProductDependencies = (
 			);
 			productName = ScreenSage;
-			productReference = 9390CB9F2E556B4600CBFD35 /* ScreenSage.app */;
+			productReference = 9390CB9F2E556B4600CBFD35 /* FlixWiz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9390CBAB2E556B4700CBFD35 /* ScreenSageTests */ = {
+		9390CBAB2E556B4700CBFD35 /* FlixWizTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageTests" */;
+			buildConfigurationList = 9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWizTests" */;
 			buildPhases = (
 				9390CBA82E556B4700CBFD35 /* Sources */,
 				9390CBA92E556B4700CBFD35 /* Frameworks */,
@@ -151,18 +151,18 @@
 				9390CBAE2E556B4700CBFD35 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9390CBAF2E556B4700CBFD35 /* ScreenSageTests */,
+				9390CBAF2E556B4700CBFD35 /* FlixWizTests */,
 			);
-			name = ScreenSageTests;
+			name = FlixWizTests;
 			packageProductDependencies = (
 			);
 			productName = ScreenSageTests;
-			productReference = 9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */;
+			productReference = 9390CBAC2E556B4700CBFD35 /* FlixWizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9390CBB52E556B4700CBFD35 /* ScreenSageUITests */ = {
+		9390CBB52E556B4700CBFD35 /* FlixWizUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageUITests" */;
+			buildConfigurationList = 9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWizUITests" */;
 			buildPhases = (
 				9390CBB22E556B4700CBFD35 /* Sources */,
 				9390CBB32E556B4700CBFD35 /* Frameworks */,
@@ -174,13 +174,13 @@
 				9390CBB82E556B4700CBFD35 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				9390CBB92E556B4700CBFD35 /* ScreenSageUITests */,
+				9390CBB92E556B4700CBFD35 /* FlixWizUITests */,
 			);
-			name = ScreenSageUITests;
+			name = FlixWizUITests;
 			packageProductDependencies = (
 			);
 			productName = ScreenSageUITests;
-			productReference = 9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */;
+			productReference = 9390CBB62E556B4700CBFD35 /* FlixWizUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "ScreenSage" */;
+			buildConfigurationList = 9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "FlixWiz" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9390CB9E2E556B4600CBFD35 /* ScreenSage */,
-				9390CBAB2E556B4700CBFD35 /* ScreenSageTests */,
-				9390CBB52E556B4700CBFD35 /* ScreenSageUITests */,
+				9390CB9E2E556B4600CBFD35 /* FlixWiz */,
+				9390CBAB2E556B4700CBFD35 /* FlixWizTests */,
+				9390CBB52E556B4700CBFD35 /* FlixWizUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		9390CBAE2E556B4700CBFD35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+			target = 9390CB9E2E556B4600CBFD35 /* FlixWiz */;
 			targetProxy = 9390CBAD2E556B4700CBFD35 /* PBXContainerItemProxy */;
 		};
 		9390CBB82E556B4700CBFD35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+			target = 9390CB9E2E556B4600CBFD35 /* FlixWiz */;
 			targetProxy = 9390CBB72E556B4700CBFD35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -518,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenSage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlixWiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlixWiz";
 			};
 			name = Debug;
 		};
@@ -536,7 +536,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenSage";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlixWiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlixWiz";
 			};
 			name = Release;
 		};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "ScreenSage" */ = {
+		9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "FlixWiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9390CBBE2E556B4700CBFD35 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSage" */ = {
+		9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9390CBC12E556B4700CBFD35 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageTests" */ = {
+		9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWizTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9390CBC42E556B4700CBFD35 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageUITests" */ = {
+		9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "FlixWizUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9390CBC72E556B4700CBFD35 /* Debug */,
