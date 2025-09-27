@@ -27,6 +27,7 @@ struct ContentView: View {
     @State private var isLoading: Bool = false
     @State private var searchMessage: String = "Discover movies and TV shows."
     @State private var selectedFilter: FilterType = .all // State for the filter
+    @State private var showingAboutSheet = false
     
     private let tmdbService = TMDBService()
     private let omdbService = OMDBService()
@@ -75,16 +76,17 @@ struct ContentView: View {
                         }
                     }
                 }
-                
-                Spacer()
-                
-                Text(getAppVersionInfo())
-                    .font(.caption)
-                    .foregroundColor(.secondary)
             }
             .navigationTitle("Screen Sage")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        showingAboutSheet.toggle()
+                    }) {
+                        Image(systemName: "info.circle")
+                    }
+                }
                 // Add the filter menu only when there are search results.
                 if !movies.isEmpty {
                     ToolbarItem(placement: .navigationBarTrailing) {
@@ -102,7 +104,11 @@ struct ContentView: View {
                 }
             }
             .onAppear(perform: loadTrending)
+            .sheet(isPresented: $showingAboutSheet) {
+                AboutView()
+            }
         }
+        .navigationViewStyle(.stack)
     }
     
     // Function to get the app's version and build number
