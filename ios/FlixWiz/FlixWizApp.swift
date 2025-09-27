@@ -1,14 +1,12 @@
 //
-//  ScreenSageApp.swift
-//  ScreenSage
-//
-//  Created by Ankur Saxena on 8/19/25.
+//  FlixWizApp.swift
+//  FlixWiz
 //
 
 import SwiftUI
 
 @main
-struct ScreenSageApp: App {
+struct FlixWizApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

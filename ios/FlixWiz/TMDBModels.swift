@@ -1,6 +1,6 @@
 //
 //  TMDBModels.swift
-//  ScreenSage
+//  FlixWiz
 
 import Foundation
 

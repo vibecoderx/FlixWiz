@@ -1,6 +1,6 @@
 //
 //  MovieDetailView.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import SwiftUI

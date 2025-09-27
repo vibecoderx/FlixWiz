@@ -1,6 +1,6 @@
 //
 //  OMDBModels.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import Foundation

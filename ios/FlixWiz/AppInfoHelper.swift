@@ -1,6 +1,6 @@
 //
 //  AppInfoHelper.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import Foundation

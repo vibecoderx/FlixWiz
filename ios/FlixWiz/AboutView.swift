@@ -1,6 +1,6 @@
 //
 //  AboutView.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import SwiftUI
@@ -13,14 +13,14 @@ struct AboutView: View {
             Form {
                 Section {
                     VStack(alignment: .center, spacing: 20) {
-                        Image("ScreenSage_img")
+                        Image("FlixWiz_img")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 100, height: 100)
                             .clipShape(RoundedRectangle(cornerRadius: 18))
                             .shadow(radius: 5)
                         
-                        Text("Censusly")
+                        Text("FlixWiz")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                         

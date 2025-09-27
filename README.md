@@ -1,7 +1,7 @@
-# ScreenSage 🧙‍♂️🎬
+# FlixWiz 🧙‍♂️🎬
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vibecoderx/ScreenSage/main/ios/ScreenSage/Assets.xcassets/AppIcon.appiconset/ScreenSage_bright_light.png" width="200">
+  <img src="https://raw.githubusercontent.com/vibecoderx/ScreenSage/main/ios/FlixWiz/Assets.xcassets/AppIcon.appiconset/FlixWiz_bright_light.png" width="200">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ---
 
-ScreenSage is a sleek and intuitive iOS application designed to help you discover and explore movies and TV shows. Whether you're looking for your next binge-watch, want to check the ratings of a classic film, or find out where to stream a trending new series, ScreenSage has you covered.
+FlixWiz is a sleek and intuitive iOS application designed to help you discover and explore movies and TV shows. Whether you're looking for your next binge-watch, want to check the ratings of a classic film, or find out where to stream a trending new series, FlixWiz has you covered.
 
 ## ✨ Features
 
@@ -66,7 +66,7 @@ ScreenSage is a sleek and intuitive iOS application designed to help you discove
 
 ## 🚀 Tech Stack
 
-ScreenSage is built with the latest Apple technologies and leverages some of the best entertainment data APIs available:
+FlixWiz is built with the latest Apple technologies and leverages some of the best entertainment data APIs available:
 
 * **SwiftUI**: The entire user interface is built declaratively with SwiftUI, ensuring a modern and responsive design.
 * **APIs**:
@@ -76,20 +76,20 @@ ScreenSage is built with the latest Apple technologies and leverages some of the
 
 ## 🛠️ Getting Started
 
-To get the ScreenSage project up and running on your local machine, follow these simple steps:
+To get the FlixWiz project up and running on your local machine, follow these simple steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/vibecoderx/ScreenSage.git
-    cd ScreenSage/ios
+    git clone https://github.com/vibecoderx/FlixWiz.git
+    cd FlixWiz/ios
     ```
 2.  **Open the project in Xcode:**
     ```bash
-    open ScreenSage.xcodeproj
+    open FlixWiz.xcodeproj
     ```
 3.  **Set up your API Keys:**
-    ScreenSage requires API keys from TMDB, OMDb, and Watchmode to function correctly. These are managed using an `Secrets.xcconfig` file.
-    * In the `ScreenSage/ios` directory, create a new file named `Secrets.xcconfig`.
+    FlixWiz requires API keys from TMDB, OMDb, and Watchmode to function correctly. These are managed using an `Secrets.xcconfig` file.
+    * In the `FlixWiz/ios` directory, create a new file named `Secrets.xcconfig`.
     * Add your API keys to this file in the following format:
 
         ```
@@ -107,7 +107,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🙏 Acknowledgments
 
-A huge thank you to the following APIs for providing the data that powers ScreenSage:
+A huge thank you to the following APIs for providing the data that powers FlixWiz:
 
 * [The Movie Database (TMDB)](https://www.themoviedb.org/)
 * [OMDb API](https://www.omdbapi.com/)

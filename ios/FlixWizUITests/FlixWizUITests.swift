@@ -1,13 +1,11 @@
 //
-//  ScreenSageUITests.swift
-//  ScreenSageUITests
-//
-//  Created by Ankur Saxena on 8/19/25.
+//  FlixWizUITests.swift
+//  FlixWizUITests
 //
 
 import XCTest
 
-final class ScreenSageUITests: XCTestCase {
+final class FlixWizUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

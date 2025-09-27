@@ -16,14 +16,14 @@
 			containerPortal = 9390CB972E556B4600CBFD35 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9390CB9E2E556B4600CBFD35;
-			remoteInfo = ScreenSage;
+			remoteInfo = FlixWiz;
 		};
 		9390CBB72E556B4700CBFD35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9390CB972E556B4600CBFD35 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9390CB9E2E556B4600CBFD35;
-			remoteInfo = ScreenSage;
+			remoteInfo = FlixWiz;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -133,7 +133,7 @@
 			name = FlixWiz;
 			packageProductDependencies = (
 			);
-			productName = ScreenSage;
+			productName = FlixWiz;
 			productReference = 9390CB9F2E556B4600CBFD35 /* FlixWiz.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -156,7 +156,7 @@
 			name = FlixWizTests;
 			packageProductDependencies = (
 			);
-			productName = ScreenSageTests;
+			productName = FlixWizTests;
 			productReference = 9390CBAC2E556B4700CBFD35 /* FlixWizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -179,7 +179,7 @@
 			name = FlixWizUITests;
 			packageProductDependencies = (
 			);
-			productName = ScreenSageUITests;
+			productName = FlixWizUITests;
 			productReference = 9390CBB62E556B4700CBFD35 /* FlixWizUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -444,7 +444,7 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreenSage/Info.plist;
+				INFOPLIST_FILE = FlixWiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FilxWiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -456,8 +456,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.ScreenSage;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.FlixWiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -480,7 +480,7 @@
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreenSage/Info.plist;
+				INFOPLIST_FILE = FlixWiz/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FilxWiz;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -492,8 +492,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.ScreenSage;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.FlixWiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -510,10 +510,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlixWizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -528,10 +529,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlixWizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -545,14 +547,15 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlixWizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScreenSage;
+				TEST_TARGET_NAME = FlixWiz;
 			};
 			name = Debug;
 		};
@@ -561,14 +564,15 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlixWizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ScreenSage;
+				TEST_TARGET_NAME = FlixWiz;
 			};
 			name = Release;
 		};

@@ -1,6 +1,6 @@
 //
 //  TrendingView.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import SwiftUI

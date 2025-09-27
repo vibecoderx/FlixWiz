@@ -1,14 +1,12 @@
 //
-//  ScreenSageTests.swift
-//  ScreenSageTests
-//
-//  Created by Ankur Saxena on 8/19/25.
+//  FlixWizTests.swift
+//  FlixWizTests
 //
 
 import Testing
-@testable import ScreenSage
+@testable import FlixWiz
 
-struct ScreenSageTests {
+struct FlixWizTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

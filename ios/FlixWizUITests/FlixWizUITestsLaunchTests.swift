@@ -1,11 +1,11 @@
 //
-//  ScreenSageUITestsLaunchTests.swift
-//  ScreenSageUITests
+//  FlixWizUITestsLaunchTests.swift
+//  FlixWizUITests
 //
 
 import XCTest
 
-final class ScreenSageUITestsLaunchTests: XCTestCase {
+final class FlixWizUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

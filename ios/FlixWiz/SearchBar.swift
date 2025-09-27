@@ -1,6 +1,6 @@
 //
 //  SearchBar.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import SwiftUI

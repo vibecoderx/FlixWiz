@@ -77,7 +77,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("Screen Sage")
+            .navigationTitle("FlixWiz")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

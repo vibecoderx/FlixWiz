@@ -1,6 +1,6 @@
 //
 //  WatchmodeModels.swift
-//  ScreenSage
+//  FlixWiz
 //
 
 import Foundation
