@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F5CB412E67E0AD00DC437D /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9390CBAD2E556B4700CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CB972E556B4600CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CB9E2E556B4600CBFD35;
+			remoteInfo = ScreenSage;
+		};
+		9390CBB72E556B4700CBFD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9390CB972E556B4600CBFD35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9390CB9E2E556B4600CBFD35;
+			remoteInfo = ScreenSage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9390CB9F2E556B4600CBFD35 /* ScreenSage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		93F5CB432E67E18200DC437D /* Exceptions for "ScreenSage" folder in "ScreenSage" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9390CBA12E556B4600CBFD35 /* ScreenSage */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				93F5CB432E67E18200DC437D /* Exceptions for "ScreenSage" folder in "ScreenSage" target */,
+			);
+			path = ScreenSage;
+			sourceTree = "<group>";
+		};
+		9390CBAF2E556B4700CBFD35 /* ScreenSageTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenSageTests;
+			sourceTree = "<group>";
+		};
+		9390CBB92E556B4700CBFD35 /* ScreenSageUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenSageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9390CB9C2E556B4600CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBA92E556B4700CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBB32E556B4700CBFD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9390CB962E556B4600CBFD35 = {
+			isa = PBXGroup;
+			children = (
+				93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */,
+				9390CBA12E556B4600CBFD35 /* ScreenSage */,
+				9390CBAF2E556B4700CBFD35 /* ScreenSageTests */,
+				9390CBB92E556B4700CBFD35 /* ScreenSageUITests */,
+				9390CBA02E556B4600CBFD35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9390CBA02E556B4600CBFD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9390CB9F2E556B4600CBFD35 /* ScreenSage.app */,
+				9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */,
+				9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9390CB9E2E556B4600CBFD35 /* ScreenSage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSage" */;
+			buildPhases = (
+				9390CB9B2E556B4600CBFD35 /* Sources */,
+				9390CB9C2E556B4600CBFD35 /* Frameworks */,
+				9390CB9D2E556B4600CBFD35 /* Resources */,
+				93F5CA522E64B55C00DC437D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBA12E556B4600CBFD35 /* ScreenSage */,
+			);
+			name = ScreenSage;
+			packageProductDependencies = (
+			);
+			productName = ScreenSage;
+			productReference = 9390CB9F2E556B4600CBFD35 /* ScreenSage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9390CBAB2E556B4700CBFD35 /* ScreenSageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageTests" */;
+			buildPhases = (
+				9390CBA82E556B4700CBFD35 /* Sources */,
+				9390CBA92E556B4700CBFD35 /* Frameworks */,
+				9390CBAA2E556B4700CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CBAE2E556B4700CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBAF2E556B4700CBFD35 /* ScreenSageTests */,
+			);
+			name = ScreenSageTests;
+			packageProductDependencies = (
+			);
+			productName = ScreenSageTests;
+			productReference = 9390CBAC2E556B4700CBFD35 /* ScreenSageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9390CBB52E556B4700CBFD35 /* ScreenSageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageUITests" */;
+			buildPhases = (
+				9390CBB22E556B4700CBFD35 /* Sources */,
+				9390CBB32E556B4700CBFD35 /* Frameworks */,
+				9390CBB42E556B4700CBFD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9390CBB82E556B4700CBFD35 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9390CBB92E556B4700CBFD35 /* ScreenSageUITests */,
+			);
+			name = ScreenSageUITests;
+			packageProductDependencies = (
+			);
+			productName = ScreenSageUITests;
+			productReference = 9390CBB62E556B4700CBFD35 /* ScreenSageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9390CB972E556B4600CBFD35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					9390CB9E2E556B4600CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					9390CBAB2E556B4700CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CB9E2E556B4600CBFD35;
+					};
+					9390CBB52E556B4700CBFD35 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 9390CB9E2E556B4600CBFD35;
+					};
+				};
+			};
+			buildConfigurationList = 9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "ScreenSage" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9390CB962E556B4600CBFD35;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9390CBA02E556B4600CBFD35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9390CB9E2E556B4600CBFD35 /* ScreenSage */,
+				9390CBAB2E556B4700CBFD35 /* ScreenSageTests */,
+				9390CBB52E556B4700CBFD35 /* ScreenSageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9390CB9D2E556B4600CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F5CB412E67E0AD00DC437D /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBAA2E556B4700CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBB42E556B4700CBFD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93F5CA522E64B55C00DC437D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Git SHA Build Script ---\"\n\n# 1. Print the path to the Info.plist for verification\necho \"Info.plist path: ${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# 2. Get the short git commit hash\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git SHA found: $GIT_SHA\"\n\n# 3. Check for uncommitted changes\nif [ -n \"$(git status --porcelain)\" ]; then\n  GIT_SHA=\"$GIT_SHA-dirty\"\n  echo \"Working directory is dirty, appending '-dirty'.\"\nfi\n\n# 4. Set the path to the Info.plist\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# 5. Update the CFBundleVersion (this will now fail the build if it doesn't work)\necho \"Attempting to update Plist with build number: $GIT_SHA\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9390CB9B2E556B4600CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBA82E556B4700CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9390CBB22E556B4700CBFD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9390CBAE2E556B4700CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+			targetProxy = 9390CBAD2E556B4700CBFD35 /* PBXContainerItemProxy */;
+		};
+		9390CBB82E556B4700CBFD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9390CB9E2E556B4600CBFD35 /* ScreenSage */;
+			targetProxy = 9390CBB72E556B4700CBFD35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9390CBBE2E556B4700CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9390CBBF2E556B4700CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9390CBC12E556B4700CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenSage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Sage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.ScreenSage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9390CBC22E556B4700CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F5CB402E67E0AD00DC437D /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Z43RA3M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScreenSage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Sage";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibecodingx.ScreenSage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9390CBC42E556B4700CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenSage";
+			};
+			name = Debug;
+		};
+		9390CBC52E556B4700CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScreenSage";
+			};
+			name = Release;
+		};
+		9390CBC72E556B4700CBFD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenSage;
+			};
+			name = Debug;
+		};
+		9390CBC82E556B4700CBFD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ScreenSageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScreenSage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9390CB9A2E556B4600CBFD35 /* Build configuration list for PBXProject "ScreenSage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBBE2E556B4700CBFD35 /* Debug */,
+				9390CBBF2E556B4700CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBC02E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBC12E556B4700CBFD35 /* Debug */,
+				9390CBC22E556B4700CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBC32E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBC42E556B4700CBFD35 /* Debug */,
+				9390CBC52E556B4700CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9390CBC62E556B4700CBFD35 /* Build configuration list for PBXNativeTarget "ScreenSageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9390CBC72E556B4700CBFD35 /* Debug */,
+				9390CBC82E556B4700CBFD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9390CB972E556B4600CBFD35 /* Project object */;
+}
