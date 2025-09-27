@@ -108,7 +108,7 @@ struct ContentView: View {
                 AboutView()
             }
         }
-        .navigationViewStyle(.stack)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     // Function to get the app's version and build number
