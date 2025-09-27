@@ -269,7 +269,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Git SHA Build Script ---\"\n\n# 1. Print the path to the Info.plist for verification\necho \"Info.plist path: ${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# 2. Get the short git commit hash\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git SHA found: $GIT_SHA\"\n\n# 3. Check for uncommitted changes\nif [ -n \"$(git status --porcelain)\" ]; then\n  GIT_SHA=\"$GIT_SHA-dirty\"\n  echo \"Working directory is dirty, appending '-dirty'.\"\nfi\n\n# 4. Set the path to the Info.plist\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# 5. Update the CFBundleVersion (this will now fail the build if it doesn't work)\necho \"Attempting to update Plist with build number: $GIT_SHA\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Exit immediately if a command exits with a non-zero status.\nset -e\n\necho \"--- Running Build Info Script ---\"\n\n# --- Set Info.plist Path ---\nINFO_PLIST_PATH=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# --- 1. Build Number (App Store Compliant) ---\n# Get the total number of commits for the build number.\nBUILD_NUMBER=$(git rev-list --count HEAD)\necho \"Build number (commit count): $BUILD_NUMBER\"\n# Update the CFBundleVersion with the new integer build number.\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD_NUMBER\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :CFBundleVersion string $BUILD_NUMBER\" \"$INFO_PLIST_PATH\"\n\n# --- 2. Git Commit SHA (for debugging) ---\n# Get the short git commit hash.\nGIT_SHA=$(git rev-parse --short HEAD)\necho \"Git commit SHA: $GIT_SHA\"\n# Update the GitCommitSHA with the new string value.\n/usr/libexec/PlistBuddy -c \"Set :GitCommitSHA $GIT_SHA\" \"$INFO_PLIST_PATH\" || \\\n/usr/libexec/PlistBuddy -c \"Add :GitCommitSHA string $GIT_SHA\" \"$INFO_PLIST_PATH\"\n\necho \"--- Script finished successfully ---\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -438,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
@@ -474,7 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Z43RA3M4;
