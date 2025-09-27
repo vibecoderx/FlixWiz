@@ -1,7 +1,7 @@
 # FlixWiz 🧙‍♂️🎬
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vibecoderx/ScreenSage/main/ios/FlixWiz/Assets.xcassets/AppIcon.appiconset/FlixWiz_bright_light.png" width="200">
+  <img src="https://raw.githubusercontent.com/vibecoderx/FlixWiz/main/ios/FlixWiz/Assets.xcassets/AppIcon.appiconset/FlixWiz_bright_light.png" width="200">
 </p>
 
 <p align="center">

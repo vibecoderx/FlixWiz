@@ -38,7 +38,7 @@ struct AboutView: View {
                 
                 Section(header: Text("Data Source")) {
                     Text("This app uses data provided by TMDB, OMDb and Watchmode APIs.")
-                    if let url = URL(string: "https://github.com/vibecoderx/ScreenSage?tab=readme-ov-file#-acknowledgments") {
+                    if let url = URL(string: "https://github.com/vibecoderx/FlixWiz?tab=readme-ov-file#-acknowledgments") {
                         Link("See links to data sources here.", destination: url)
                     }
                 }
