@@ -28,6 +28,42 @@ ScreenSage is a sleek and intuitive iOS application designed to help you discove
 * **Where to Watch**: Find out where your favorite movies and TV shows are available to stream, rent, or buy.
 * **Sleek & Intuitive UI**: Enjoy a clean, modern, and user-friendly interface that makes discovering content a breeze.
 
+## Screentshots
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>See trending movies on the landing page!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/1.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See all movies and TV shows matching a keyword search!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/2.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>See detailed movie info by tapping on a search result!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/3.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>Go to movie's Rotten Tomatoes home page for detailed reviews!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/4.png" width="250">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>See where to stream, rent or buy the movie!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/5.png" width="250">
+    </td>
+    <td width="50%" align="center">
+      <b>See reverse chronological list of all matching results!</b><br>
+      <img src=".github/screenshots/iphone11_pro_max/6.png" width="250">
+    </td>
+  </tr>
+
+</table>
+
 ## 🚀 Tech Stack
 
 ScreenSage is built with the latest Apple technologies and leverages some of the best entertainment data APIs available:
