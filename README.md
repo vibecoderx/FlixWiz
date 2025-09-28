@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>Your ultimate guide to the world of movies and TV shows.</strong>
+  <strong>Your ultimate guide to the world of movies and TV shows. Download iOS
+app <a href="https://apps.apple.com/app/flixwiz/id6753124128">here.</strong>
 </p>
 
 <p align="center">
@@ -16,7 +17,8 @@
 
 ---
 
-FlixWiz is a sleek and intuitive iOS application designed to help you discover and explore movies and TV shows. Whether you're looking for your next binge-watch, want to check the ratings of a classic film, or find out where to stream a trending new series, FlixWiz has you covered.
+FlixWiz is a sleek and intuitive [iOS
+app](https://apps.apple.com/app/flixwiz/id6753124128) designed to help you discover and explore movies and TV shows. Whether you're looking for your next binge-watch, want to check the ratings of a classic film, or find out where to stream a trending new series, FlixWiz has you covered.
 
 ## ✨ Features
 
